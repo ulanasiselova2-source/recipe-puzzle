@@ -1,0 +1,29 @@
+
+# Секреты и настройки
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Временные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# Настройки редакторов
+.vscode/
+.idea/
